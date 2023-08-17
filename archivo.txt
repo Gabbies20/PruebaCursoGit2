@@ -1,1 +1,4 @@
-arcgivo 1 modificacio
+3 Areas:
+1. Working Area
+2. Staged 
+3. Local Repository de Github

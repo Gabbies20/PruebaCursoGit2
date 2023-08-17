@@ -1,3 +1,21 @@
-dgfhgfhjdfhghadashdasharchivo2 modificacio
-.....
-m
+1. git add o git add --all
+2. git commit (sin mse edita el archivo en VIM) -m"(Nombre del commit)"
+3. git log -> nos muestra el historial de commit
+
+
+AGREGAR A UN REPOSITORIO REMOTO CREADO POR TI DESDE TU CUENTA DE GITHUB.
+4.git remote add origin (origin: este nombre puede cambiar por convencion es origin o de forma secundaria upstream) y la url.
+4.1 git remote -v ->> nos mostrara si se ha ejecutado de forma correcta el comando.
+5. git push -u origin master (master: hace referencia a la rama).
+
+El comando git push -u origin master tiene como objetivo enviar tus cambios locales al repositorio remoto y establecer una relación de seguimiento (tracking) entre tu rama local y la rama remota en Git. Aquí está el significado de cada parte del comando:
+
+    git push: Este comando se utiliza para enviar los cambios locales a un repositorio remoto.
+
+    -u: La opción -u o --set-upstream se utiliza para establecer una relación de seguimiento entre la rama local y la rama remota. Esto significa que después de configurar la relación, cuando utilices git pull o git push en el futuro sin especificar una rama específica, Git sabrá a qué rama remota debe hacer referencia.
+
+    origin: Es el nombre del repositorio remoto donde deseas enviar tus cambios. Por convención, "origin" es el nombre típico dado al repositorio remoto principal en Git.
+
+    master: Es el nombre de la rama que deseas enviar al repositorio remoto. En este caso, estás enviando los cambios de tu rama local llamada "master" (o "main", dependiendo de la configuración) a la rama correspondiente en el repositorio remoto.
+
+En resumen, el comando git push -u origin master envía los cambios de tu rama local "master" al repositorio remoto llamado "origin" y establece una relación de seguimiento entre las ramas locales y remotas. Después de ejecutar este comando, podrás usar simplemente git pull y git push en el futuro sin tener que especificar explícitamente la rama y el repositorio remoto, ya que Git recordará la configuración establecida con -u.
