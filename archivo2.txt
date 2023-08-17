@@ -19,3 +19,6 @@ El comando git push -u origin master tiene como objetivo enviar tus cambios loca
     master: Es el nombre de la rama que deseas enviar al repositorio remoto. En este caso, estás enviando los cambios de tu rama local llamada "master" (o "main", dependiendo de la configuración) a la rama correspondiente en el repositorio remoto.
 
 En resumen, el comando git push -u origin master envía los cambios de tu rama local "master" al repositorio remoto llamado "origin" y establece una relación de seguimiento entre las ramas locales y remotas. Después de ejecutar este comando, podrás usar simplemente git pull y git push en el futuro sin tener que especificar explícitamente la rama y el repositorio remoto, ya que Git recordará la configuración establecida con -u.
+
+
+FIN
