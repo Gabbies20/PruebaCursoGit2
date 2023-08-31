@@ -1,5 +1,9 @@
 Linea1
+<<<<<<< HEAD
 Linea2
 Linea3
 Linea4
 Linea5
+=======
+Linea2
+>>>>>>> parent of 55fbafe (agregando linea3)
